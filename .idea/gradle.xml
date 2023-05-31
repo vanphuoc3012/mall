@@ -19,16 +19,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/buildSrc" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/mall-common" />
-        <option name="modules">
-          <set>
             <option value="$PROJECT_DIR$/mall-common" />
+            <option value="$PROJECT_DIR$/mall-mbg" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -3,30 +3,50 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="mall" />
+      <module name="mall.mall-mbg.test" />
+      <module name="mall.mall-common" />
+      <module name="mall.mall-mbg.main" />
+      <module name="mall.mall-mbg" />
+      <module name="mall.buildSrc" />
+      <module name="mall.mall-common.test" />
+      <module name="mall.mall-common.main" />
+      <module name="mall.buildSrc.test" />
+      <module name="mall.buildSrc.main" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mall/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/mall/app/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/mall/app/MessageUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall-config.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/spring-conventions.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/mbg/common/CommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/mbg/common/api/CommonPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mall/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/mall/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mall/app/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mall/app/MessageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/mall/app/MessageUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall-config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.mall-config.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/spring-conventions.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/phuoc9/mallcommon/MallCommonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/src/test/java/com/phuoc9/mallcommon/MallCommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mallcommon/MallCommonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/src/test/java/com/ph/mallcommon/MallCommonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/test/java/com/ph/mall/mbg/common/MallCommonApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,9 +58,39 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/demo">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/mall-common">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/mall-common">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mall" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +99,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QW9kLRzoDDe4RoqfGUwliUP97f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,8 +107,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
@@ -67,11 +123,37 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.diffblue.cover.intellij",
-    "spring.configuration.checksum": "f364ef4a85ef1e3a66bf9c243eaa4331",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29885057",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "f0ff4ee88a7b989f28a4e4e3e130365f",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.MallCommonApplication">
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall.mall-common.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall.mall-common.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mallcommon.MallCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,11 +166,21 @@
       <workItem from="1685458846405" duration="352000" />
       <workItem from="1685459211459" duration="1039000" />
       <workItem from="1685494019167" duration="75000" />
+      <workItem from="1685498850651" duration="9282000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="demo.main" />
+    <module name="demo.test" />
+    <module name="mall-common" />
+    <module name="mall-common.main" />
+    <module name="mall-common.test" />
+    <module name="mall.app.main" />
+    <module name="mall.app.test" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
