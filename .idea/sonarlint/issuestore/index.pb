@@ -6,11 +6,21 @@ c
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-E
-buildSrc/build.gradle,5/3/5346bf5154d614c088e4d2d6ee5a5bf0fdbde703
-`
-0buildSrc/src/main/groovy/mall.mall-config.gradle,f/d/fd0be38c4dd63360f4046d80c2d8237944300c17
-g
-7buildSrc/src/main/groovy/mall.spring-conventions.gradle,4/8/488548f1c4607938bd9f8a9a6f64e890f3e884e0
 >
 .gitattributes,2/4/24139dae656713ba861751fb2c2ac38839349a7a
+€
+Pmall-common/src/test/java/com/ph/mall/mbg/common/MallCommonApplicationTests.java,3/d/3d2ea2303319b1b9a16926544536c6a54593ae3f
+t
+Dmall-common/src/main/java/com/ph/mall/mbg/common/api/CommonPage.java,6/f/6f3a38b0d739ebcd60cdc5a1ae792fdbfcc326be
+]
+-.idea/modules/mall-mbg/mall.mall-mbg.main.iml,5/3/53587ee95d3c14ba06c27f8235e8676a0876ef44
+E
+mall-admin/.gitignore,9/7/97dec128c29e8085aaf32ea3308c926ac2e97642
+G
+mall-admin/build.gradle,f/0/f0bbee93af11279329bf237b5bdbb8edc08b53dc
+l
+<mall-mbg/src/main/java/com/ph/mall/mbg/CommentGenerator.java,6/9/692b8f43d3b6f15b79f9a3779ef61955d9da754e
+i
+9mall-mbg/src/main/java/com/ph/mall/mbg/GeneratorMain.java,1/3/13a2ef89a4bce1569461b2f735e83afec51a2358
+d
+4mall-admin/src/main/java/com/ph/mall/admin/Main.java,e/1/e1ab0eb2a07a01b356a0b4862da19bd7b1cde8c9

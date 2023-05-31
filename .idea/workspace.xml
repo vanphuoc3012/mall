@@ -18,24 +18,24 @@
       <module name="mall.buildSrc.test" />
       <module name="mall.buildSrc.main" />
       <module name="mall.mall-admin.main" />
+      <module name="mall.mall-demo" />
+      <module name="mall.mall-demo.test" />
+      <module name="mall.mall-demo.main" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git">
       <change afterPath="$PROJECT_DIR$/.idea/highlightedFiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/CommentGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/generator.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/dto/PmsBrandDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/validator/FlagValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/validator/FlagValidatorClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-mbg/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/GeneratorMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +78,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -108,7 +109,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/home/phuoc/Desktop/Projects/hrms",
+    "last_opened_file_path": "/mnt/samsung-p2/Projects/sourcecode/mall",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -151,6 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall.mall-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.demo.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -165,7 +173,7 @@
       <workItem from="1685459211459" duration="1039000" />
       <workItem from="1685494019167" duration="75000" />
       <workItem from="1685498850651" duration="14998000" />
-      <workItem from="1685523534417" duration="283000" />
+      <workItem from="1685523534417" duration="5093000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1685514889922</created>
@@ -174,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685514889922</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="git">
+      <created>1685523865050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685523865050</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
