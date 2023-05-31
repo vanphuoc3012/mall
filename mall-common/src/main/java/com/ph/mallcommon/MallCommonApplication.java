@@ -1,4 +1,4 @@
-package com.phuoc9.mallcommon;
+package com.ph.mallcommon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

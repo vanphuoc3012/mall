@@ -1,4 +1,4 @@
-package com.phuoc9.mallcommon;
+package com.ph.mallcommon;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

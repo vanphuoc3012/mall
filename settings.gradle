@@ -13,5 +13,4 @@ plugins {
 }
 
 rootProject.name = 'mall'
-include('app')
-include('mall-common')
+include('app', 'mall-common')
