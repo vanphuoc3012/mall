@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-common/mall-common.iml" filepath="$PROJECT_DIR$/mall-common/mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mall.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mall.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mall.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mall.app.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" />
     </modules>
   </component>
 </project>

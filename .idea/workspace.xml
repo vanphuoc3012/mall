@@ -10,43 +10,32 @@
       <module name="mall.mall-common" />
       <module name="mall.mall-mbg.main" />
       <module name="mall.mall-mbg" />
+      <module name="mall.mall-admin.test" />
+      <module name="mall.mall-admin" />
       <module name="mall.buildSrc" />
       <module name="mall.mall-common.test" />
       <module name="mall.mall-common.main" />
       <module name="mall.buildSrc.test" />
       <module name="mall.buildSrc.main" />
+      <module name="mall.mall-admin.main" />
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/mbg/common/CommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/mbg/common/api/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git">
+      <change afterPath="$PROJECT_DIR$/.idea/highlightedFiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/CommentGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/generator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mall/app/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/mall/app/MessageUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/mall/app/MessageUtilsTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall-config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.mall-config.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/spring-conventions.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mallcommon/MallCommonApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/src/test/java/com/ph/mallcommon/MallCommonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/test/java/com/ph/mall/mbg/common/MallCommonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-mbg/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/GeneratorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +77,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -114,6 +104,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "11",
@@ -127,11 +118,18 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29885057",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f0ff4ee88a7b989f28a4e4e3e130365f",
+    "spring.configuration.checksum": "26e51ec3740262fad1d68326535e6f2b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.MallCommonApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GeneratorMain">
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mall.mall-common.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.common.CommonApplication" />
@@ -146,9 +144,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MallCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="mall.mall-common.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mallcommon.MallCommonApplication" />
+    <configuration name="GeneratorMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall.mall-mbg.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.mbg.GeneratorMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,8 +164,17 @@
       <workItem from="1685458846405" duration="352000" />
       <workItem from="1685459211459" duration="1039000" />
       <workItem from="1685494019167" duration="75000" />
-      <workItem from="1685498850651" duration="9282000" />
+      <workItem from="1685498850651" duration="14998000" />
+      <workItem from="1685523534417" duration="283000" />
     </task>
+    <task id="LOCAL-00001" summary="git">
+      <created>1685514889922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685514889922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,5 +199,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git" />
+    <option name="LAST_COMMIT_MESSAGE" value="git" />
   </component>
 </project>
