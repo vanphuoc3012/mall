@@ -1,4 +1,4 @@
-package com.ph.mall.mbg.common.api;
+package com.ph.mall.common.api;
 
 import java.util.List;
 

@@ -25,18 +25,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git">
-      <change afterPath="$PROJECT_DIR$/.idea/highlightedFiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/dto/PmsBrandDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/validator/FlagValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/validator/FlagValidatorClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-demo/mall.mall-demo.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/sql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/IErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/ResultCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/DemoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/PmsBrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/brand/PmsBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/brand/PmsBrandExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/mbg/common/api/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/DemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/config/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-mbg/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +93,8 @@
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="Class" />
+        <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -96,33 +111,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/mnt/samsung-p2/Projects/sourcecode/mall",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29885057",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "26e51ec3740262fad1d68326535e6f2b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/samsung-p2/Projects/mall/mall-demo/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29885057&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;9fc93b2714cd6ba3d0edc4315cbdc4b6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mall-demo/src/main/resources" />
+      <recent name="$PROJECT_DIR$/mall-demo/src/main" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -130,7 +156,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GeneratorMain">
+  <component name="RunManager" selected="Spring Boot.DemoMain">
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mall.mall-common.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.common.CommonApplication" />
@@ -145,16 +171,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneratorMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="mall.mall-mbg.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.mbg.GeneratorMain" />
+    <configuration name="DemoMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall.mall-demo.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.demo.DemoMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="mall.mall-demo.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.demo.Main" />
+    <configuration name="GeneratorMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="mall.mall-mbg.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.mbg.GeneratorMain" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,6 +200,9 @@
       <workItem from="1685494019167" duration="75000" />
       <workItem from="1685498850651" duration="14998000" />
       <workItem from="1685523534417" duration="5093000" />
+      <workItem from="1685528955373" duration="139000" />
+      <workItem from="1685589589326" duration="15822000" />
+      <workItem from="1685614459231" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1685514889922</created>
@@ -189,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685523865050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git">
+      <created>1685528973507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685528973507</updated>
+    </task>
+    <task id="LOCAL-00004" summary="git">
+      <created>1685529083981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685529083981</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

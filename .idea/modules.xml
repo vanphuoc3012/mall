@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mall.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mall.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mall.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mall.app.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-demo/mall.mall-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-demo/mall.mall-demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" />
     </modules>
   </component>

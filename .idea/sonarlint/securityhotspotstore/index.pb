@@ -8,10 +8,6 @@ c
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
-€
-Pmall-common/src/test/java/com/ph/mall/mbg/common/MallCommonApplicationTests.java,3/d/3d2ea2303319b1b9a16926544536c6a54593ae3f
-t
-Dmall-common/src/main/java/com/ph/mall/mbg/common/api/CommonPage.java,6/f/6f3a38b0d739ebcd60cdc5a1ae792fdbfcc326be
 i
 9mall-mbg/src/main/java/com/ph/mall/mbg/GeneratorMain.java,1/3/13a2ef89a4bce1569461b2f735e83afec51a2358
 G
@@ -24,3 +20,19 @@ l
 -.idea/modules/mall-mbg/mall.mall-mbg.main.iml,5/3/53587ee95d3c14ba06c27f8235e8676a0876ef44
 d
 4mall-admin/src/main/java/com/ph/mall/admin/Main.java,e/1/e1ab0eb2a07a01b356a0b4862da19bd7b1cde8c9
+D
+mall-demo/.gitignore,b/5/b58e78c81c21a9e15d8661fc0c14bfda16593052
+E
+buildSrc/build.gradle,5/3/5346bf5154d614c088e4d2d6ee5a5bf0fdbde703
+`
+0buildSrc/src/main/groovy/mall.mall-config.gradle,f/d/fd0be38c4dd63360f4046d80c2d8237944300c17
+u
+Emall-demo/src/main/java/com/ph/mall/demo/validator/FlagValidator.java,8/0/80d762ee5122e3b735040201a93032a31762be4d
+z
+Jmall-demo/src/main/java/com/ph/mall/demo/validator/FlagValidatorClass.java,8/6/865833bba056fd074badf43b34f336fad751a26c
+m
+=mall-demo/src/main/java/com/ph/mall/demo/dto/PmsBrandDto.java,7/8/785cf61f91b7285d2403e1ce1339c8a51ea4fd3e
+H
+mall-common/build.gradle,9/5/9578372b89f5cc2a6dad5ba6130995863edf76b5
+?
+settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233

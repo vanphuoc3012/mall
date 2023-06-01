@@ -11,7 +11,6 @@ repositories {
 
 dependencies {
     implementation project(':mall-common')
-    implementation 'org.mybatis.generator:mybatis-generator-core:1.4.2'
     implementation 'com.mysql:mysql-connector-j:8.0.33'
     implementation 'com.github.pagehelper:pagehelper-spring-boot-starter:1.4.6'
     implementation 'org.springframework.boot:spring-boot-starter-web'
