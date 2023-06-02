@@ -1,4 +1,15 @@
 spring:
   profiles:
     active:
-      - local
+      - rds
+  application:
+    name: demo-mall
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+mybatis:
+  mapper-locations:
+    - classpath:mapper/*.xml
+    - classpath*:com/**/mapper/*xml

@@ -17,7 +17,7 @@ public class DemoServiceImpl implements DemoService {
     private final PmsBrandMapper brandMapper;
     @Override
     public List<PmsBrand> listAllBrand() {
-        return brandMapper.selectByExample(new PmsBrandExample());
+        return brandMapper.selectByExampleWithBLOBs(new PmsBrandExample());
     }
 
     @Override

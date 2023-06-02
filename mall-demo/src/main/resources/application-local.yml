@@ -1,11 +1,6 @@
 server:
   port: 8081
-springdoc:
-  swagger-ui:
-    path: /swagger-ui.html
 spring:
-  application:
-    name: demo-mall
   datasource:
     url: jdbc:mysql://localhost:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Bangkok
     username: root
@@ -16,8 +11,5 @@ logging:
     root: info
     com.ph.mall: debug
 
-mybatis:
-  mapper-locations:
-    - classpath:mapper/*.xml
-    - classpath*:com/**/mapper/*xml
+
 

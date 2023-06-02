@@ -6,6 +6,7 @@ import com.ph.mall.mbg.model.brand.PmsBrand;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,9 +21,9 @@ import java.util.List;
 public class DemoController {
     private final DemoService demoService;
 
-    @GetMapping("/listAll")
-    @ResponseBody
+    @GetMapping(value = "/listAll", produces = MediaType.APPLICATION_JSON_VALUE)
     @Operation(description = "List all brand")
+    @ResponseBody
     public CommonResult<List<PmsBrand>> getBrandList() {
         return CommonResult.success(demoService.listAllBrand());
     }

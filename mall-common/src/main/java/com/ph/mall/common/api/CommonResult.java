@@ -1,5 +1,8 @@
 package com.ph.mall.common.api;
 
+import lombok.Data;
+
+@Data
 public class CommonResult<T> {
     /**
      * Status code
@@ -31,6 +34,6 @@ public class CommonResult<T> {
      * @return
      */
     public static <T> CommonResult<T> success(T data) {
-        return new CommonResult<T>(ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMessage(), data);
+        return new CommonResult<>(ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMessage(), data);
     }
 }

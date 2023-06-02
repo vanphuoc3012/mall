@@ -25,31 +25,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-demo/mall.mall-demo.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/sql/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/IErrorCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/DemoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application-local.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/PmsBrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/brand/PmsBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/brand/PmsBrandExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/PmsBrandMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/mbg/common/api/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/DemoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-mbg/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/PmsBrandMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +56,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/mall-common">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
           <activation />
         </task>
         <projects_view>
@@ -202,7 +190,9 @@
       <workItem from="1685523534417" duration="5093000" />
       <workItem from="1685528955373" duration="139000" />
       <workItem from="1685589589326" duration="15822000" />
-      <workItem from="1685614459231" duration="86000" />
+      <workItem from="1685614459231" duration="361000" />
+      <workItem from="1685670769138" duration="903000" />
+      <workItem from="1685693383441" duration="5073000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1685514889922</created>
@@ -232,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685529083981</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="git">
+      <created>1685614560603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685614560603</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,5 +258,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git" />
     <option name="LAST_COMMIT_MESSAGE" value="git" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
