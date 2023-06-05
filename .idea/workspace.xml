@@ -11,11 +11,11 @@
       <module name="mall.mall-mbg.main" />
       <module name="mall.mall-mbg" />
       <module name="mall.mall-admin.test" />
+      <module name="mall.buildSrc.test" />
       <module name="mall.mall-admin" />
       <module name="mall.buildSrc" />
       <module name="mall.mall-common.test" />
       <module name="mall.mall-common.main" />
-      <module name="mall.buildSrc.test" />
       <module name="mall.buildSrc.main" />
       <module name="mall.mall-admin.main" />
       <module name="mall.mall-demo" />
@@ -25,16 +25,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git">
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/controller/PmsProductCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/dto/PmsProductCategoryRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/handler/NotFoundExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/service/PmsProductCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/service/impl/PmsProductCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/validator/FlagValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/validator/FlagValidatorClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/test/java/com/ph/mall/admin/service/impl/PmsProductCategoryServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/exception/ItemNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/pms/PmsProductCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/category/PmsProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/pms/PmsProductCategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/mall.spring-conventions.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/sql/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/CommonResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/ph/mall/common/api/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/controller/DemoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-demo/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application-local.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mall-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/PmsBrandMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/PmsBrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/pms/PmsBrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/brand/PmsBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/brand/PmsBrand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/PmsBrandMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/pms/PmsBrandMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,9 +104,9 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -112,7 +136,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/mnt/samsung-p2/Projects/mall/mall-demo/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/samsung-p2/Projects/mall/mall-admin/src/main/java/com/ph/mall/admin&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -121,8 +145,8 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.29885057&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;9fc93b2714cd6ba3d0edc4315cbdc4b6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;mybatisx.settings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;c28a11dd1856ff07c3a1136d934bf3f3&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -133,8 +157,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin" />
+      <recent name="$PROJECT_DIR$/mall-admin/src/main/resources" />
       <recent name="$PROJECT_DIR$/mall-demo/src/main/resources" />
       <recent name="$PROJECT_DIR$/mall-demo/src/main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/pms" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,7 +173,44 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoMain">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="PmsProductCategoryServiceImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":mall-admin:test" />
+            <option value="--tests" />
+            <option value="&quot;com.ph.mall.admin.service.impl.PmsProductCategoryServiceImplTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mall.mall-admin.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.admin.AdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ph.mall.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mall.mall-common.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ph.mall.common.CommonApplication" />
@@ -173,6 +239,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Write tests for method PmsProductCategoryServiceImpl.getItem" type="com.diffblue.cover.write-tests-run-configuration" factoryName="com.diffblue.cover.write-tests-run-configuration" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="mall.mall-admin.main" />
+      <settings run-config-name="Write tests for method PmsProductCategoryServiceImpl.getItem" include-system-env-vars="true">
+        <jvm-args />
+        <selection-scope>method</selection-scope>
+        <selected-element key="com.ph.mall.admin.service.impl.PmsProductCategoryServiceImpl.getItem:(Ljava/lang/Long;)Lcom/ph/mall/mbg/model/category/PmsProductCategory;" />
+      </settings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Gradle.PmsProductCategoryServiceImplTest" />
+        <item itemvalue="Diffblue Cover.Write tests for method PmsProductCategoryServiceImpl.getItem" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -192,7 +274,15 @@
       <workItem from="1685589589326" duration="15822000" />
       <workItem from="1685614459231" duration="361000" />
       <workItem from="1685670769138" duration="903000" />
-      <workItem from="1685693383441" duration="5073000" />
+      <workItem from="1685693383441" duration="5100000" />
+      <workItem from="1685706963276" duration="1378000" />
+      <workItem from="1685708420825" duration="6322000" />
+      <workItem from="1685720700915" duration="698000" />
+      <workItem from="1685793398547" duration="1255000" />
+      <workItem from="1685794693072" duration="1124000" />
+      <workItem from="1685799610638" duration="3734000" />
+      <workItem from="1685807907073" duration="4219000" />
+      <workItem from="1685945490094" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1685514889922</created>
@@ -229,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685614560603</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="git">
+      <created>1685699038816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685699038816</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,15 +356,8 @@
     <MESSAGE value="git" />
     <option name="LAST_COMMIT_MESSAGE" value="git" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/mall-demo/src/main/java/com/ph/mall/demo/service/impl/DemoServiceImpl.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

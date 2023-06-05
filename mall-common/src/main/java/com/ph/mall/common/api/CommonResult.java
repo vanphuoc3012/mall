@@ -21,7 +21,6 @@ public class CommonResult<T> {
 
     }
 
-
     protected CommonResult(long code, String message, T data) {
         this.code = code;
         this.messge = message;
@@ -35,5 +34,13 @@ public class CommonResult<T> {
      */
     public static <T> CommonResult<T> success(T data) {
         return new CommonResult<>(ResultCode.SUCCESS.getCode(), ResultCode.SUCCESS.getMessage(), data);
+    }
+
+    public static <T> CommonResult<T> failed(String message) {
+        return new CommonResult<>(ResultCode.FAILED.getCode(), message, null);
+    }
+
+    public static <T> CommonResult<T> notFound(String messge) {
+        return new CommonResult<>(ResultCode.NOT_FOUND.getCode(), messge, null);
     }
 }

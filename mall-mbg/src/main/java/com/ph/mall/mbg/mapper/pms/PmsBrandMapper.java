@@ -1,4 +1,4 @@
-package com.ph.mall.mbg.mapper;
+package com.ph.mall.mbg.mapper.pms;
 
 import com.ph.mall.mbg.model.brand.PmsBrand;
 import com.ph.mall.mbg.model.brand.PmsBrandExample;

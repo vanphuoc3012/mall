@@ -2,7 +2,7 @@ package com.ph.mall.demo.service.impl;
 
 import com.ph.mall.demo.dto.PmsBrandDto;
 import com.ph.mall.demo.service.DemoService;
-import com.ph.mall.mbg.mapper.PmsBrandMapper;
+import com.ph.mall.mbg.mapper.pms.PmsBrandMapper;
 import com.ph.mall.mbg.model.brand.PmsBrand;
 import com.ph.mall.mbg.model.brand.PmsBrandExample;
 import lombok.RequiredArgsConstructor;

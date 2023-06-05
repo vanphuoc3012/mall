@@ -3,7 +3,7 @@ spring:
     active:
       - rds
   application:
-    name: demo-mall
+    name: admin-mall
 
 springdoc:
   swagger-ui:
@@ -13,5 +13,5 @@ mybatis:
   mapper-locations:
     - classpath:mapper/*.xml
     - classpath*:com/**/mapper/*xml
-#  configuration:
-#    map-underscore-to-camel-case: true
+  configuration:
+    map-underscore-to-camel-case: true

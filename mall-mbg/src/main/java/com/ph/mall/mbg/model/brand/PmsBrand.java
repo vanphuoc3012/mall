@@ -14,7 +14,7 @@ public class PmsBrand implements Serializable {
 
     private String name;
 
-    @Schema(allowableValues = {"0", "1"}, description = "Alias")
+    @Schema(description = "Alias")
     private String firstLetter;
 
     private Integer sort;

@@ -3,9 +3,10 @@ package com.ph.mall.common.api;
 public enum ResultCode implements IErrorCode{
     SUCCESS(200, "Success operation"),
     FAILED(500, "Failed operation"),
-    VALIDATE_FAILED(404, "Validate failed"),
+    VALIDATE_FAILED(400, "Bad request"),
     UNAUTHORIZED(401, "Not authorized or token has expired"),
-    FORBIDDEN(403, "Not have permission");
+    FORBIDDEN(403, "Not have permission"),
+    NOT_FOUND(404, "Not found");
 
     ResultCode(long code, String message) {
         this.code = code;

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ph.mall.mbg.mapper.pms.PmsProductCategoryMapper">
+
+
+    <select id="selectByPrimaryKey" resultType="com.ph.mall.mbg.model.category.PmsProductCategory">
+        select
+            *
+        from pms_product_category
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+</mapper>

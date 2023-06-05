@@ -2,25 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
         </processorPath>
-        <module name="mall.mall-mbg.main" />
-        <module name="mall.mall-demo.main" />
         <module name="mall.mall-common.main" />
+        <module name="mall.mall-mbg.main" />
+        <module name="mall.mall-admin.main" />
+        <module name="mall.mall-demo.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11">
-      <module name="demo" target="11" />
-      <module name="demo.main" target="11" />
-      <module name="demo.test" target="11" />
-      <module name="mall-common" target="11" />
-      <module name="mall-common.main" target="11" />
-      <module name="mall-common.test" target="11" />
-      <module name="mall.main" target="11" />
-      <module name="mall.test" target="11" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
