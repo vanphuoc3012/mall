@@ -1,4 +1,4 @@
-package com.ph.mall.admin.service.impl.ums;
+package com.ph.mall.admin.service.implement.ums;
 
 import com.ph.mall.admin.dto.request.UmsAdminRequestParam;
 import com.ph.mall.admin.service.ums.UmsAdminService;
