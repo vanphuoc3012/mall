@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/mall-common" />
             <option value="$PROJECT_DIR$/mall-demo" />
             <option value="$PROJECT_DIR$/mall-mbg" />
+            <option value="$PROJECT_DIR$/mall-security" />
           </set>
         </option>
       </GradleProjectSettings>

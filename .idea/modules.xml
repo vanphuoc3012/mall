@@ -9,9 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-common.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mall.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mall.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/mall.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/mall.app.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-admin/mall.mall-admin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-admin/mall.mall-admin.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-common/mall.mall-common.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-demo/mall.mall-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-demo/mall.mall-demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-mbg/mall.mall-mbg.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mall-security/mall.mall-security.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mall-security/mall.mall-security.main.iml" />
     </modules>
   </component>
 </project>
