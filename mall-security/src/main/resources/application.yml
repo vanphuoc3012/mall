@@ -1,0 +1,4 @@
+jwt:
+  secret: mall-admin-secret
+  expiration: 55
+  tokenHead: 'Bearer '

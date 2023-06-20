@@ -21,15 +21,48 @@ CREATE TABLE `pms_product_category`
   ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
-INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`, `show_status`, `sort`, `icon`, `keywords`, `description`)
-VALUES (0, 'Electronics', 0, 100, 'pieces', 1, 1, 1, 'electronics_icon.png', 'electronics, gadgets, technology', 'Category for electronic products');
-INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`, `show_status`, `sort`, `icon`, `keywords`, `description`)
-VALUES (0, 'Clothing', 0, 500, 'pieces', 1, 1, 2, 'clothing_icon.png', 'clothes, fashion, apparel', 'Category for clothing items');
-INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`, `show_status`, `sort`, `icon`, `keywords`, `description`)
-VALUES (0, 'Home and Kitchen', 0, 200, 'pieces', 1, 1, 3, 'home_kitchen_icon.png', 'home, kitchenware, appliances', 'Category for home and kitchen products');
-INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`, `show_status`, `sort`, `icon`, `keywords`, `description`)
-VALUES (0, 'Books', 0, 1000, 'pieces', 1, 1, 4, 'books_icon.png', 'books, literature, reading', 'Category for books and literary works');
-INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`, `show_status`, `sort`, `icon`, `keywords`, `description`)
-VALUES (0, 'Sports and Fitness', 0, 300, 'pieces', 1, 1, 5, 'sports_fitness_icon.png', 'sports, fitness, exercise', 'Category for sports and fitness equipment');
-INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`, `show_status`, `sort`, `icon`, `keywords`, `description`)
-VALUES (0, 'Beauty and Personal Care', 0, 400, 'pieces', 1, 1, 6, 'beauty_care_icon.png', 'beauty, personal care, cosmetics', 'Category for beauty and personal care products');
+INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`,
+                                    `show_status`, `sort`, `icon`, `keywords`, `description`)
+VALUES (0, 'Electronics', 0, 100, 'pieces', 1, 1, 1, 'electronics_icon.png', 'electronics, gadgets, technology',
+        'Category for electronic products');
+INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`,
+                                    `show_status`, `sort`, `icon`, `keywords`, `description`)
+VALUES (0, 'Clothing', 0, 500, 'pieces', 1, 1, 2, 'clothing_icon.png', 'clothes, fashion, apparel',
+        'Category for clothing items');
+INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`,
+                                    `show_status`, `sort`, `icon`, `keywords`, `description`)
+VALUES (0, 'Home and Kitchen', 0, 200, 'pieces', 1, 1, 3, 'home_kitchen_icon.png', 'home, kitchenware, appliances',
+        'Category for home and kitchen products');
+INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`,
+                                    `show_status`, `sort`, `icon`, `keywords`, `description`)
+VALUES (0, 'Books', 0, 1000, 'pieces', 1, 1, 4, 'books_icon.png', 'books, literature, reading',
+        'Category for books and literary works');
+INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`,
+                                    `show_status`, `sort`, `icon`, `keywords`, `description`)
+VALUES (0, 'Sports and Fitness', 0, 300, 'pieces', 1, 1, 5, 'sports_fitness_icon.png', 'sports, fitness, exercise',
+        'Category for sports and fitness equipment');
+INSERT INTO `pms_product_category` (`parent_id`, `name`, `level`, `product_count`, `product_unit`, `nav_status`,
+                                    `show_status`, `sort`, `icon`, `keywords`, `description`)
+VALUES (0, 'Beauty and Personal Care', 0, 400, 'pieces', 1, 1, 6, 'beauty_care_icon.png',
+        'beauty, personal care, cosmetics', 'Category for beauty and personal care products');
+
+-- ----------------------------
+DROP TABLE IF EXISTS `ums_admin`;
+CREATE TABLE `ums_admin`
+(
+    `id`          bigint(20)                                                    NOT NULL AUTO_INCREMENT,
+    `username`    varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci  NULL DEFAULT NULL,
+    `password`    varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci  NULL DEFAULT NULL,
+    `icon`        varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT 'avatar',
+    `email`       varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT 'email',
+    `nick_name`   varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT 'Nick name',
+    `note`        varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NULL DEFAULT NULL COMMENT 'Remarks',
+    `create_time` datetime                                                      NULL DEFAULT NULL COMMENT 'Created time',
+    `login_time`  datetime                                                      NULL DEFAULT NULL COMMENT 'Last login time',
+    `status`      int(1)                                                        NULL DEFAULT 1 COMMENT 'Account enabled status: 0->disabled; 1->enabled',
+    PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB
+  AUTO_INCREMENT = 11
+  CHARACTER SET = utf8mb4
+  COLLATE = utf8mb4_general_ci COMMENT = 'Admin user table'
+  ROW_FORMAT = DYNAMIC;

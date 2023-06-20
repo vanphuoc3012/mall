@@ -28,27 +28,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git">
-      <change afterPath="$PROJECT_DIR$/.idea/CoverUsage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-admin/mall.mall-admin.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-security/mall.mall-security.main.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/config/MallSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/ums/UmsAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/ums/UmsPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/model/ums/UmsRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/controller/ums/UmsAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/dto/request/UmsAdminRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/service/UmsAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/ums/UmsAdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/ums/UmsRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/ums/UmsAdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/ums/UmsRoleMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/org/ph/mall/security/SecurityApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/org/ph/mall/security/utils/JwtTokenUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mall-security/src/main/resources/application.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mall-security/src/test/java/org/ph/mall/security/utils/JwtTokenUtilTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/mall-security/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-admin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mall-admin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/sql/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +92,8 @@
         <option value="spring-beans.schema" />
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -113,39 +110,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_directory_selection": "/mnt/samsung-p2/Projects/mall/mall-security/src/main/java/org/ph/mall/security",
-    "last_opened_file_path": "/mnt/samsung-p2/Projects/mall/mall-security/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.29885057",
-    "settings.editor.selected.configurable": "mybatisx.settings",
-    "spring.configuration.checksum": "e6833fd495164a99408c0e9d40be6f9b",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_directory_selection&quot;: &quot;/mnt/samsung-p2/Projects/mall/mall-security/src/main/java/org/ph/mall/security&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/mnt/samsung-p2/Projects/mall/mall-security/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.29885057&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;mybatisx.settings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e6833fd495164a99408c0e9d40be6f9b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mall-security/src/main/resources" />
@@ -155,6 +152,7 @@
       <recent name="$PROJECT_DIR$/mall-demo/src/main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper" />
       <recent name="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/pms" />
     </key>
   </component>
@@ -165,7 +163,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Diffblue Cover.Write tests for method JwtTokenUtil.generateToken">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration name="PmsProductCategoryServiceImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -258,8 +256,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Diffblue Cover.Write tests for method JwtTokenUtil.generateToken" />
         <item itemvalue="Spring Boot.AdminApplication" />
+        <item itemvalue="Diffblue Cover.Write tests for method JwtTokenUtil.generateToken" />
         <item itemvalue="Gradle.PmsProductCategoryServiceImplTest" />
         <item itemvalue="Diffblue Cover.Write tests for method PmsProductCategoryServiceImpl.getItem" />
       </list>
@@ -295,7 +293,8 @@
       <workItem from="1685958471365" duration="275000" />
       <workItem from="1686032709114" duration="321000" />
       <workItem from="1686987021087" duration="1703000" />
-      <workItem from="1687226653666" duration="7328000" />
+      <workItem from="1687226653666" duration="7495000" />
+      <workItem from="1687248876176" duration="4362000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1685514889922</created>
@@ -346,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685958504328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="git">
+      <created>1687244729283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687244729283</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
