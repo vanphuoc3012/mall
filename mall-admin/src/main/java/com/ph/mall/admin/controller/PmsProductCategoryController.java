@@ -1,6 +1,6 @@
 package com.ph.mall.admin.controller;
 
-import com.ph.mall.admin.service.PmsProductCategoryService;
+import com.ph.mall.admin.service.pms.PmsProductCategoryService;
 import com.ph.mall.common.api.CommonPage;
 import com.ph.mall.common.api.CommonResult;
 import com.ph.mall.mbg.model.category.PmsProductCategory;

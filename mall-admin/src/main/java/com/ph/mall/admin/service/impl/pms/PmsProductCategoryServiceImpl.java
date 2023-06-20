@@ -1,6 +1,6 @@
-package com.ph.mall.admin.service.impl;
+package com.ph.mall.admin.service.impl.pms;
 
-import com.ph.mall.admin.service.PmsProductCategoryService;
+import com.ph.mall.admin.service.pms.PmsProductCategoryService;
 import com.ph.mall.common.exception.ItemNotFoundException;
 import com.ph.mall.mbg.mapper.pms.PmsProductCategoryMapper;
 import com.ph.mall.mbg.model.category.PmsProductCategory;

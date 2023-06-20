@@ -1,4 +1,4 @@
-package com.ph.mall.admin.service;
+package com.ph.mall.admin.service.pms;
 
 import com.ph.mall.mbg.model.category.PmsProductCategory;
 

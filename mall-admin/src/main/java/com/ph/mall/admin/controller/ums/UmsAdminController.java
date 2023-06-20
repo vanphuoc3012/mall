@@ -1,7 +1,7 @@
 package com.ph.mall.admin.controller.ums;
 
 import com.ph.mall.admin.dto.request.UmsAdminRequestParam;
-import com.ph.mall.admin.service.UmsAdminService;
+import com.ph.mall.admin.service.ums.UmsAdminService;
 import com.ph.mall.common.api.CommonResult;
 import com.ph.mall.mbg.model.ums.UmsAdmin;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -27,26 +27,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/mall-security/mall.mall-security.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/config/MallSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/controller/ums/UmsAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/dto/request/UmsAdminRequestParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/service/UmsAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-admin/src/main/java/com/ph/mall/admin/service/impl/UmsAdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/ums/UmsAdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/java/com/ph/mall/mbg/mapper/ums/UmsRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/ums/UmsAdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-mbg/src/main/resources/com/ph/mall/mbg/mapper/ums/UmsRoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/java/org/ph/mall/security/SecurityApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/test/java/org/ph/mall/security/utils/JwtTokenUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-security/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/doc/sql/schema.sql" afterDir="false" />
-    </list>
+    <list default="true" id="9132be7b-10e0-4b2e-af38-2504f12a4299" name="Changes" comment="git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +275,7 @@
       <workItem from="1686032709114" duration="321000" />
       <workItem from="1686987021087" duration="1703000" />
       <workItem from="1687226653666" duration="7495000" />
-      <workItem from="1687248876176" duration="4362000" />
+      <workItem from="1687248876176" duration="5122000" />
     </task>
     <task id="LOCAL-00001" summary="git">
       <created>1685514889922</created>
@@ -352,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687244729283</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="git">
+      <created>1687253492613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687253492613</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
